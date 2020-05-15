@@ -2,4 +2,26 @@
     height: 200px;
     width: 200px;
     border: 1px solid;
+    position: relative;
+    left: 500px;
+    top: 500px;
+    animation: slide 6s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+        top: 0;
+    }
+      
+    50% {
+        left: 300px;
+        top: 0px;
+    }
+      
+    100% {
+        left: 0;
+        top: 0;
+    }
 }
